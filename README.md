@@ -1,4 +1,4 @@
-# Language Flashcards App
+# Language Flashcards App 🌏
 
 A mobile app for learning vocabulary from different languages using flashcards with AI-generated images.
 
