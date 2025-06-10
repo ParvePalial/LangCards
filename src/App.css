@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom styles for language learning app */
+
+/* Flashcard flip effect */
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Custom highlight colors for entities */
+.entity-highlight {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.entity-highlight:hover {
+  opacity: 0.8;
+}
+
+/* Custom form styling */
+textarea:focus, input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Custom button styling */
+button {
+  transition: all 0.2s ease;
+}
+
+/* Language selector styling */
+.language-selector-wrapper {
+  position: relative;
+}
+
+/* Custom tooltip */
+.custom-tooltip {
+  position: absolute;
+  z-index: 10;
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.custom-tooltip-trigger:hover .custom-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Animation for flashcard notification */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.animate-fade-in-out {
+  animation: fadeInOut 2s ease-in-out;
+}
