@@ -15,6 +15,8 @@ A full-featured, modern web application for mastering new languages using advanc
 
 ---
 
+![My Logo](./demo.png)
+
 ## 🧠 NLP & AI Techniques Used
 
 ### ✅ spaCy-based POS Tagging
