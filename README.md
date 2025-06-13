@@ -15,7 +15,8 @@ A full-featured, modern web application for mastering new languages using advanc
 
 ---
 
-![My Logo](./demo.png)
+<img src="./assets/logo.png" alt="My Logo" width="200"/>
+
 
 ## 🧠 NLP & AI Techniques Used
 
